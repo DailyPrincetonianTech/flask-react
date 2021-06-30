@@ -2,9 +2,9 @@
 
 ### Setup Dependencies
 ```bash
-brew install pyenv
 brew update
 
+brew install pyenv
 pyenv install $(pyenv install --list | grep -v - | grep -v b | tail -1)
 pyenv global $(pyenv install --list | grep -v - | grep -v b | tail -1)
 
@@ -28,5 +28,4 @@ npx create-react-app app
 ```bash
 cd app/http/client/app && npm run build && cd ../../../.. && pipenv run flask run
 ```
-
  
