@@ -1,5 +1,7 @@
 # Flask / React.js Stack Template
 
+This template implements a Flask backend that serves a PWA TypeScript React.js application client-side, equipped with state management via Redux. 
+
 ### Setup Dependencies
 ```bash
 brew update
