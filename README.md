@@ -21,7 +21,14 @@ pipenv install flask_restful
 pipenv shell
 
 cd app/http/client
-npx create-react-app app
+npx create-react-app app --template cra-template-pwa-typescript 
+
+cd app
+yarn add react-redux && npm install @types/react-redux  && npm install @reduxjs/toolkit
+
+ncu
+ncu -u
+npm install
 ```
 
 ### Local Deployment
