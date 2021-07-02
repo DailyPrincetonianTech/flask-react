@@ -14,6 +14,8 @@ brew install pipenv
 pip install --user pipenv
 
 pip install black
+
+npm install -g npm-check-updates
 ```
 
 ### Environment Setup
@@ -34,6 +36,7 @@ ncu -u && yarn install
 
 ### Local Deployment
 ```bash
+black .
 cd app/http/client/app && yarn build && cd ../../../.. && pipenv run flask run
 ```
  
