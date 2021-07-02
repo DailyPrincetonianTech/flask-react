@@ -27,7 +27,7 @@ npx create-react-app app --template cra-template-pwa-typescript
 cd app
 yarn add react-redux @types/react-redux @reduxjs/toolkit react-router-dom @types/react-router-dom @material-ui/core
 
-ncu -u && npm install
+ncu -u && yarn install
 ```
 
 ### Local Deployment
