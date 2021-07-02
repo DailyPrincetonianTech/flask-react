@@ -18,8 +18,19 @@ pip install black
 npm install -g npm-check-updates
 ```
 
-### Environment Setup
+### Environment Setup (Template)
 ```bash
+pipenv install pylint --dev
+pipenv install flask flask_restful
+pipenv shell
+
+cd app/http/client/app
+ncu -u && yarn install
+```
+
+### Environment Setup (Scratch)
+```bash
+pipenv install pylint --dev
 pipenv install flask flask_restful
 pipenv shell
 
