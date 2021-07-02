@@ -18,23 +18,20 @@ pip install black
 
 ### Environment Setup
 ```bash
-pipenv install flask
-pipenv install flask_restful
+pipenv install flask flask_restful
 pipenv shell
 
 cd app/http/client
 npx create-react-app app --template cra-template-pwa-typescript 
 
 cd app
-yarn add react-redux && npm install @types/react-redux  && npm install @reduxjs/toolkit
+yarn add react-redux @types/react-redux @reduxjs/toolkit react-router-dom @types/react-router-dom @material-ui/core
 
-ncu
-ncu -u
-npm install
+ncu -u && npm install
 ```
 
 ### Local Deployment
 ```bash
-cd app/http/client/app && npm run build && cd ../../../.. && pipenv run flask run
+cd app/http/client/app && yarn build && cd ../../../.. && pipenv run flask run
 ```
  
