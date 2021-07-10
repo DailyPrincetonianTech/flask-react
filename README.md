@@ -20,8 +20,7 @@ npm install -g npm-check-updates
 
 ### Environment Setup (Template)
 ```bash
-pipenv install pylint --dev
-pipenv install flask flask_restful
+pipenv install
 pipenv shell
 
 cd app/http/client/app
