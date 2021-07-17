@@ -46,7 +46,11 @@ ncu -u && yarn install
 
 ### Local Deployment
 ```bash
+pipenv shell
+
 black .
-cd app/http/client/app && yarn build && cd ../../../.. && pipenv run flask run
+pylint app
+pytest test
+flask run
 ```
  
