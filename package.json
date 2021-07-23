@@ -39,7 +39,7 @@
     "workbox-streams": "^6.1.5"
   },
   "scripts": {
-    "set:env": "heroku config -s -a 'connectupskill' >> .env && pipenv shell",
+    "set:env": "heroku config -s -a 'HEROKU_APP_NAME' >> .env && pipenv shell",
     "update:api": "pipenv update",
     "update:client": "ncu -u && yarn install",
     "update": "yarn update:api && yarn update:client",
