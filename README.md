@@ -18,39 +18,11 @@ pip install black
 npm install -g npm-check-updates
 ```
 
-### Environment Setup (Template)
+### Environment Setup
 ```bash
 pipenv install
-pipenv shell
-
-cd app/http/client/app
-ncu -u && yarn install
 ```
 
-### Environment Setup (Scratch)
-```bash
-pipenv install pylint --dev
-pipenv install flask flask_restful
-pipenv shell
+### Local Development
+Refer to package.json for the list of scripts.
 
-cd app/http/client
-npx create-react-app app --template cra-template-pwa-typescript 
-
-cd app
-yarn add react-redux @types/react-redux @reduxjs/toolkit 
-yarn add react-router-dom @types/react-router-dom 
-yarn add @material-ui/core
-
-ncu -u && yarn install
-```
-
-### Local Deployment
-```bash
-pipenv shell
-
-black .
-pylint app
-pytest test
-flask run
-```
- 
