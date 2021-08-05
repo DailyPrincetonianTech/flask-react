@@ -1,8 +1,6 @@
-"""Connect UPskill v0.3.0
+"""Flask-React Template v2.0.0
 
-Let's democratize recruiting together.
-
-Made w/ love. ==> @areeq-hasan, @mwad22, @tbegum, @tvu20
+Made w/ love. ==> @areeq-hasan
 """
 
 
